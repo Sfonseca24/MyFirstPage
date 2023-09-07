@@ -1,5 +1,6 @@
 body{
   margin: 0em;
+  background-color: beige;
 }
 
 .cover{
@@ -75,5 +76,17 @@ body{
 .image{
   height: normal;
   width: 250px;
+}
+
+#navbar{
+  background-color: black;
+}
+
+.links{
+  font-style: black;
+}
+
+.nav-link{
+  right: 20px;
 }
 

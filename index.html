@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/styles.css">
   <!--Icono del title Favicon-->
   <link rel="shortcut icon" href="/recursos-images/gaming.png" type="image/png">
-
+  <script src="/jsPage.js"></script>
   <!---link rel="stylesheet" type="text/css" href="C:\Users\raule\Desktop\css"--->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,19 +31,19 @@
 </head>
 
 
-<body>
+<body onload="Startalert()">
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <a class="navbar-brand" href="/">logo</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <a class="navbar-brand" href="/" id="links" style="color: aqua;">logo</a>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="/" style="color: aqua;">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#proyectos">Proyectos</a>
+            <a class="nav-link" href="#proyectos" id="links" style="color: aqua;">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sobremi.html">Sobre mi</a>
+            <a class="nav-link" href="sobremi.html" id="links" style="color: aqua;">Sobre mi</a>
           </li>
         </ul>
     </nav>
