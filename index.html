@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/styles.css">
   <!--Icono del title Favicon-->
   <link rel="shortcut icon" href="/recursos-images/gaming.png" type="image/png">
-  <script src="/jsPage.js"></script>
+  <script src="/main.js"></script>
   <!---link rel="stylesheet" type="text/css" href="C:\Users\raule\Desktop\css"--->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
 </head>
 
 
-<body onload="Startalert()">
+<body onload="Startalert()" onload="clock()">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
         <a class="navbar-brand" href="/" id="links" style="color: aqua;">logo</a>
@@ -47,12 +47,15 @@
           </li>
         </ul>
     </nav>
+    <canvas id="canvas" width="800" height="200"></canvas>
+
     <div class="cover d-flex justify-content-center align-items-center flex-column">
-      <h1 class="bodyTitle">
+      <h1 class="bodyTitle" >
         Libro de Curiosidades
       </h1>
       <p class="bodysubTitle">
         La imaginacion es el mejor lugar para el artista
+        <script>clock();</script>
       </p>
       <button class="btn btn-primary">
         Conoce mas
